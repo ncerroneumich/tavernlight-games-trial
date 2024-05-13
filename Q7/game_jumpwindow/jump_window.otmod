@@ -1,0 +1,9 @@
+Module
+  name: game_jump_window
+  description: Adds a window that allows the user to play a simple jump game.
+  author: Nickolas Cerrone
+  website: N/A
+  sandboxed: true
+  scripts: [ jump_window ]
+  @onLoad: init()
+  @onUnload: terminate()
