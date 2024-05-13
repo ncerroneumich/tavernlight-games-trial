@@ -1,0 +1,9 @@
+<!-- 
+	Excerpt from spells.xml in TFS instance
+-->
+<instant group="attack" spellid="555" name="Diamond Storm" words="frigo" level="100" mana="1" premium="0" selftarget="1" cooldown="1" groupcooldown="1" needlearn="0" script="attack/diamond_storm.lua">
+	<vocation name="Sorcerer" />
+	<vocation name="Druid" />
+	<vocation name="Knight" />
+	<vocation name="Paladin" />
+</instant>
