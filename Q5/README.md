@@ -2,10 +2,7 @@
 
 <h3>Video Demo</h3>
 
-<video controls>
-  <source src="Q5_Video_Nickolas_Cerrone.mp4" type="video/mp4">
-</video>
-
+https://github.com/ncerroneumich/tavernlight-games-trial/assets/97428535/bdc02df0-ae57-4b0a-83ab-80f16f317a0d
 
 <h3>Overview</h3>
 
