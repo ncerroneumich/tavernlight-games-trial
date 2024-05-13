@@ -6,19 +6,7 @@ https://github.com/ncerroneumich/tavernlight-games-trial/assets/97428535/bdc02df
 
 <h3>Overview</h3>
 
-The process for implementing this spell was pretty straightforward. I began by learning how other spells were implemented on the server side. Once I had a decent understanding, I created my own spell as shown above. It is different than most others in the game as it executes multiple combat instances whereas a normal Tibia spell would just execute a single instance. Executing these instances with increasing delays allows us to achieve a spell with a dynamically changing area.
-
-
-<h3>Spell declaration<h3>
-
-```xml
-<instant group="attack" spellid="555" name="Diamond Storm" words="frigo" level="100" mana="1" premium="0" selftarget="1" cooldown="1" groupcooldown="1" needlearn="0" script="attack/diamond_storm.lua">
-    <vocation name="Sorcerer" />
-    <vocation name="Druid" />
-    <vocation name="Knight" />
-    <vocation name="Paladin" />
-</instant>
-```
+The process for implementing this spell was pretty straightforward. I began by learning how other spells were implemented on the server side. Once I had a decent understanding, I created my own spell as shown above. It is different than most others in the game as it executes multiple combat instances whereas a normal Tibia spell would just execute a single instance. Executing these instances with increasing delays allows us to achieve a spell with a dynamically changing area. All spell files can be found in this folder.
 
 <h3>Spell Script</h3>
 
@@ -109,4 +97,15 @@ function onCastSpell(creature, variant)
 	return true
 end
 ```
-    
+
+
+<h3>Spell declaration</h3>
+
+```xml
+<instant group="attack" spellid="555" name="Diamond Storm" words="frigo" level="100" mana="1" premium="0" selftarget="1" cooldown="1" groupcooldown="1" needlearn="0" script="attack/diamond_storm.lua">
+    <vocation name="Sorcerer" />
+    <vocation name="Druid" />
+    <vocation name="Knight" />
+    <vocation name="Paladin" />
+</instant>
+```
