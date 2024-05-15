@@ -1,8 +1,9 @@
 # Q6 - Nickolas Cerrone
 
-<h3>Video Demo</h3>
+<h3>Video Demo (couldn't get this one to embed natively for some reason)</h3>
 
-
+<a href="https://github.com/ncerroneumich/tavernlight-games-trial/blob/main/Q6/media/Question6_Nickolas_Cerrone.mp4">Github Link Here</a> <br/>
+<a href="https://www.youtube.com/embed/GqpazUWW-fc?si=r_1vUXHVnag04nfy">Youtube Link Here for Easy Viewing</a>
 
 <h3>Overview</h3>
 
@@ -308,13 +309,13 @@ The biggest issue has to do with rendering. When dashing in certain directions, 
 
 Here is the artifact when dashing left.
 
-![alt text](Q6_Image_1.png)
+![alt text](media/Q6_Image_1.png)
 
 And here it is when dashing up.
 
-![alt text](Q6_Image_2.png)
+![alt text](media/Q6_Image_2.png)
 
- I westled with the source code a lot before I gave up on this, as it was simply taking up too much time. If I had a better understanding of the texture processing pipeline, I believe this would be an easy fix.
+ I wrestled with the source code a lot before I gave up on this, as it was simply taking up too much time. If I had a better understanding of the texture processing pipeline in OTClient, I believe this would be an easy fix.
 
 The hardest part of these questions were at the beginning when I had little to no knowledge of what I was doing, but after getting the layout of the client codebase, it started to get pretty enoyable. Exploring this codebase reminded me of my own game engine code. Having that experience really helped me here. It gave me the understanding I needed to tackle this problem and without that project I don't think I would've been able to complete this question.
 
