@@ -2,13 +2,13 @@
 
 <h3>Video Demo</h3>
 
-
-
+https://github.com/ncerroneumich/tavernlight-games-trial/assets/97428535/1b71135b-b555-4ff0-8a25-34d63b4c1070
 <h3>Overview</h3>
 
 To reproduce the UI game shown in the video I created an OTClient module. After inspecting the other modules that came with OTClient and the provided video, I felt I had a good enough understanding to begin work on the game. In order to produce a psuedo update loop, I create a cycle event that gets called at a set interval. I had a really great experience experimenting with everything OTClient modules can do. When I got the game to work it was quite satisfying! Shown below it the script that handles all game logic. All module files can be found in the module folder.
 
-<h3>Game Script<h3>
+<h3>Game Script</h3>
+
 
 ```Lua
 -- UI Variables
