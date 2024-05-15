@@ -1,0 +1,9 @@
+Module
+  name: game_dash
+  description: Connects the client and server for dashing
+  author: Nickolas Cerrone
+  website: N/A
+  sandboxed: true
+  scripts: [ game_dash ]
+  @onLoad: init()
+  @onUnLoad: terminate()
